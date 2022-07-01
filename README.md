@@ -43,3 +43,45 @@ rviz
 
 - Et le sphere apparaît
 
+## Afficher un carré
+
+En assumant qu'on est dans le répertoire catkin_ws, on fait la commande suivante pour source le fichier publish_marker_array.py
+```sh
+source devel/setup.bash
+```
+
+Puis on fait la commande suivante
+```sh
+rviz
+```
+#### Sur rviz 
+
+- On appuie sur le bouton Add qui il se trouve au bas de l'écran
+
+- On choisit by_topic
+
+- Ensuite on choisit notre script python publish_marker_marker.py
+
+- Et le carré apparaît
+
+## Random walk
+
+En assumant qu'on est dans le répertoire catkin_ws, on fait la commande suivante pour source le fichier random_walk.py
+```sh
+source devel/setup.bash
+```
+
+Puis on fait la commande suivante
+```sh
+rviz
+```
+#### Sur rviz 
+
+- On appuie sur le bouton Add qui il se trouve au bas de l'écran
+
+- On choisit by_topic
+
+- Ensuite on choisit notre script python random_walk.py
+
+
+
